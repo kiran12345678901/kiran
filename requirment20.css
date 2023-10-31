@@ -1,0 +1,634 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+
+}
+.main1{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    font-weight: bolder;
+    list-style: none;
+    /* border: 2px solid white; */
+    position: fixed;
+    font-style: italic;
+    /* top: 0;
+    width: 100%; */
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.ah:hover{
+    color: rgb(212, 17, 177);
+    transition: 1s;
+}
+.main2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(234, 5, 5); */
+    color: beige;
+    font-size: large;
+    font-weight: bold;
+    display: flex;   
+    background-image: url(./back.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-style: oblique;
+
+}
+.text{
+    color: white;
+    /* background-color: black; */
+    height: 100%;
+    width: 50%;
+    /* display: flex; */
+    /* background-image: url(./back.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+   
+}
+.divtext{
+    height: 5%;
+    width: 100%;
+    /* background-color: black; */
+    
+    /* font-size: x-large; */
+    /* font-weight: bold; */
+    color: aqua;    
+    margin-top: 150px;
+    font-weight: bolder;
+
+
+}
+.divtext1{
+    height: 90%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    font-size: 300%;
+    font-weight: bolder;
+    color: rgb(161, 87, 148);
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px white; 
+    /* text-stroke: 1px white; */
+    margin-top: 100px;
+
+
+    
+}
+.divtext2{
+    height: 5%;
+    width: 100%;
+    color: rgb(10, 226, 226);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    margin-top: -300px;
+}
+.head1{
+    color: pink;
+}
+.logo{
+    height: 100%;
+    width: 50%;
+    /* background-image: url(./back.webp);
+    background-repeat: no-repeat;
+    background-position: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    border-bottom-left-radius: 250px;
+    border-top-left-radius: 250px;
+}
+
+.a1scroll:hover{
+    color: skyblue;
+    transition: 3s;
+}
+.main3{
+    height: 230vh;
+    width: 100%;
+    background-color: white;
+    color: transparent;
+    font-style: oblique;
+
+}
+.about1{
+    height: 8%;
+    width:100%;
+    /* background-color: aliceblue; */
+}
+.about2{
+    height: 5%;
+    width:100%;
+    /* background-color: rgb(6, 128, 235); */
+     color: rgb(227, 18, 179); 
+    font-size: 400%;
+    font-weight: bolder;
+}
+.about3{
+    height: 5%;
+    width:100%;
+    /* background-color: aliceblue; */
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.about4{
+    height: 20%;
+    width:100%;
+    /* background-color: rgb(13, 224, 125); */
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+}
+.about5{
+    height: 10%;
+    width:100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.res{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+    color: white;
+
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.as1{
+    height: 30%;
+    border-radius: 50px;
+    width: 60%;
+    background-color: transparent; 
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    box-shadow: 250px salmon;
+
+}
+.HIRE{
+    color: rgb(7, 139, 192);
+    /* box-shadow: 250px salmon; */
+
+}
+.as1:hover{
+    background-color: black ;
+    scale: 1;
+}
+.hire{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.as2{
+    height: 30%;
+    width: 60%;
+    background-color: black;
+    /* border: 2px solid rgb(243, 19, 19); */
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: xx-large;
+    font-weight: bolder;
+    box-shadow: 250px salmon;
+
+    
+
+
+}
+.as2:hover{
+       background-color: rgb(212, 17, 177);
+       transition: 1s;
+
+}
+.res{
+    color: rgb(7, 139, 192);
+}
+
+.about6{
+    height: 3%;
+    width:100%;
+    /* background-color: rgb(194, 127, 19); */
+    font-size: 300%;
+    font-weight: bolder;
+         color: rgb(227, 18, 179); 
+    
+}
+.about7{
+    height: 5%;
+    width:100%;
+    /* background-color: rgb(225, 21, 197); */
+    font-size: 400%;
+    font-weight: bolder;
+    color: black;
+}
+.about8{
+    height: 44%;
+    width:100%;
+    /* background-color: aliceblue; */
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+fieldset{
+    border: 3px   double rgb(238, 11, 215);
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    line-height: 120%;
+    width: 70%;
+    /* border-collapse: collapse; */
+    /* display: flex; */
+}
+legend{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.head4{ color: rgb(176, 62, 81);}
+
+
+.a2{
+    color: pink;
+    font-weight: bolder;
+    font-size: larger;
+}
+.main4{
+    height: 50vh;
+    width: 100%;
+    background-color: white; 
+    color: pink;
+    font-style: oblique;
+    /* margin-top: 250px; */
+}
+
+.cont1{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    color: rgb(163, 58, 146);
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.cont2{
+    height: 20%;
+    width: 100%;
+    /* background-color: black; */
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+.cont3{
+    height: 60%;
+    width: 100%;
+    /* background-color: black; */
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(148, 55, 70);
+}
+
+.a3{
+    color: rgb(148, 55, 70);
+}
+.a5{     color: rgb(148, 55, 70);}
+
+.a6{
+    color: rgb(148, 55, 70);
+}
+.a7{
+    color: rgb(148, 55, 70);
+}
+.cont4{
+    height: 10%;
+    width: 100%;
+    color: pink;
+
+}
+.a3:hover{
+    color: skyblue;
+    transition: 1s;
+}
+.main5{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(230, 34, 191); */
+    color: beige;
+    background-image: url(./back5.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-style: oblique;
+
+}
+.skill{
+    height: 80%;
+    width: 40%;
+     /*background-color: aqua; */
+     color: transparent;
+}
+.skill1{
+    height: 20%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    font-size: 300%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(193, 25, 53);
+}
+:hover.main5>.skill>.skill2{
+     color:  beige; 
+    transition: 3s;
+    /* transition-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19); */
+    transition-delay: 1s;
+}
+hr{
+    color: pink;
+}
+.skill2{
+    height: 80%;
+    width: 100%;font-size: 300%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    line-height: 189%;
+}
+.project{
+    height: 80%;
+     width: 40%;
+     color: transparent;
+    /*background-color: aqua; */
+}
+.project1{
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(5, 136, 250); */
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    line-height: 189%;
+    font-size: 300%;
+    color: rgb(193, 25, 53);
+
+
+}
+.project2{
+    height: 80%;
+    width: 100%;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    line-height: 189%;
+    color: transparent;
+    font-size: larger;
+
+}
+.head0{
+    font-size: 200%;
+    color: blue;
+}
+:hover.main5>.project>.project2{
+    color:  beige; 
+    transition: 3s;
+    /* transition-duration: 5s; */
+    /* transform-style: preserve-3d; */
+    transition-delay: 2s;
+    transform-origin: 3cm;
+    /* transition-property: inherit; */
+    /* transform-style: initial; */
+    /* -o-transition:cubic-bezier(0.895, 0.03, 0.685, 0.22); */
+    -moz-transition-end-duration: 6s;
+    /* scroll-snap-stop: right; */
+    /* scrollbar-arrow-color: aquamarine; */
+    scale: 0.7;
+    
+
+}
+/* .main2:hover{
+    color: transparent;
+    transition: 3s;
+    transition-delay: 2s;
+
+} */
+.dow:hover{
+    color: skyblue;
+    transition: 1s;
+}
+.main6{
+    height: 100vh;
+    width: 100%;background-color: white; 
+    font-style: oblique;
+
+}
+.say1{
+    height: 15%;
+    width: 100%;
+
+}
+.say2{
+    height: 10%;
+    width: 100%;
+    font-size: 350%;
+    font-weight: bolder;
+    color: rgb(163, 58, 146);
+
+
+}
+.say3{
+    height: 10%;
+    width: 100%;
+    /* background-color: rgb(0, 255, 76); */
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+.say4{
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    font-size: 350%;
+    font-weight: bolder;
+    /* color: transparent; */
+
+
+}
+.email{
+    color: rgb(163, 58, 146);
+}
+.say5{
+    height: 15%;
+    width: 100%;
+    /* background-color: rgb(119, 0, 255); */
+
+}
+.say6{
+    height: 5%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 174); */
+    font-weight: bolder;
+    font-size: xx-large;
+
+}
+.say7{
+    height: 5%;
+    width: 100%;
+    /* background-color: rgb(217, 139, 31); */
+    font-weight: bolder;
+    font-size: xx-large;   
+    color: black;
+    display: flex;
+
+
+}
+.twit{
+    color: rgb(163, 58, 146);
+
+
+}.insta{
+    color: rgb(163, 58, 146);
+}
+    .in{
+        color: rgb(163, 58, 146);;
+    }
+    .in:hover{
+        color: rgb(6, 182, 252);
+        transition: 3s;
+    }
+    .insta:hover{
+        color: rgb(6, 182, 252);
+        transition: 3s;
+
+    }
+    .twit:hover{
+        color: rgb(6, 182, 252);
+        transition: 3s;
+    }
+    
+
+
+.say8{
+    height: 10%;
+
+
+    width: 100%;
+    font-weight: bolder;
+    font-size: xx-large;   
+    color: rgb(163, 58, 146);
+    display: flex;
+    /* background-color: rgb(130, 127, 123); */
+
+}
+.link{
+    color: black;
+}
+label{
+    color :black
+}
+.aemail{
+    color: rgb(163, 58, 146);
+}
+.aemail:hover{
+    color: rgb(6, 182, 252);
+    transition: 3s;
+    /* transition-delay: 3s; */
+    /* scale: .5; */
+}
+.back1{
+    height: 100%;
+    width: 90%;
+
+}
+.back2{
+    height: 100%;
+    width: 10%;
+    /* background-color: brown; */
+    font-size: large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(161, 19, 42);
+}
+.backa{
+    color: rgb(163, 58, 146);
+}
+.backa:hover{
+    color: black;
+    transition: 1s;
+}
+.main7{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.footer1{
+    height: 100%;
+    width: 90%;
+    background-color: black;
+
+}
+.footer2{
+    height: 100%;
+    width: 10%;
+    /* background-color: rgb(230, 23, 23); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    
+}
