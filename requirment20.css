@@ -42,7 +42,7 @@ a{
     background-image: url(./back.webp);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: container;
+    background-size: contain;
     font-style: oblique;
 
 }
