@@ -446,11 +446,11 @@ hr{
     /* transition-duration: 5s; */
     /* transform-style: preserve-3d; */
     transition-delay: 2s;
-    transform-origin: 3cm;
+/*     transform-origin: 3cm; */
     /* transition-property: inherit; */
     /* transform-style: initial; */
     /* -o-transition:cubic-bezier(0.895, 0.03, 0.685, 0.22); */
-    -moz-transition-end-duration: 6s;
+/*     -moz-transition-end-duration: 6s; */
     /* scroll-snap-stop: right; */
     /* scrollbar-arrow-color: aquamarine; */
     scale: 0.7;
